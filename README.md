@@ -10,11 +10,11 @@ Add jQuery, the script file and css file to the document, and call plugin over a
 
 ```javascript
 $(document).ready(function(){
-  $("#snippet").serpSnippet({
-    title: "This is an Example of a Title Tag that is Seventy Characters in Length",
+	$("#snippet").serpSnippet({
+		title: "This is an Example of a Title Tag that is Seventy Characters in Length",
 		url: "www.example.com/example",
-	  description: "Here is an example of what a snippet looks like in Google's SERPs. The content that appears here is usually taken from the Meta Description tag if relevant.",
-	  search: ""
+	  	description: "Here is an example of what a snippet looks like in Google's SERPs. The content that appears here is usually taken from the Meta Description tag if relevant.",
+	  	search: ""
 	});
 });
 ```
